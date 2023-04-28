@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style/signup.css">
+  <title>Reddit/signup</title>
+</head>
+
+<body>
+  <div class="logo">
+    <img class="logo-signup" src="https://www.redditinc.com/assets/images/site/reddit-logo.png">
+    <h2>SignUp To Reddit.</h2>
+    <p>By continuing,
+      you are setting up a Reddit account and
+      agree to our User Agreement and Privacy Policy.</p>
+    </div>
+    <form id="signupForm" class="signup-card animated fade">
+      <section class="signup">
+        <div id="validateD" class="validate">
+          <p id="validateP"> error </p>
+        </div>
+      <h1 class="title">SignUp</h1>
+      <div id="name">
+        <input id="firstName" name="firstName" type="text" placeholder="first Name">
+        <input id="lastName" name="lastName" type="text" placeholder="Last Name">
+      </div>
+      <input id="username" name="username" type="text" placeholder="Username">
+      <input id="email" name="email" type="email" placeholder="Email">
+      <input id="Phone" name="phone" type="text" placeholder="Phone">
+      <input id="password" name="password" type="password" placeholder="Password">
+      <input id="repassword" name="confirmPassword" type="password" placeholder="Confirm Password">
+      <a href="#"><button id="signupBtn" class="in-signup">Sign up</button></a>
+      <span id="signup">you have account ? <a href="/page/login">Login</a></span>
+    </form type="submit">
+  </section>
+
+  <script src="/js/user/signupValidation.js"></script>
+  <script src="/js/user/signup.js"></script>
+</body>
+
+</html>
