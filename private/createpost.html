@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style/createpost.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header class="header">
+        <div id="validateD" class="validate">
+            <p id="validateP"> error </p>
+          </div>
+        <div class="left">
+            <div class="logo">
+                <img src="/image/reddit.png" alt="" class="icon">
+                <a href="/page/home" class="tile-logo">reddit</a>
+                <div class="home-ico">
+                    <span class="material-symbols-outlined">home</span>
+                    Home
+                </div>
+            </div>
+            <div class="search">
+                <label><i class="ri-search-line"></i></i></label>
+                <input type="text" placeholder="Search Reddit">
+            </div>
+        </div>
+        <div class="right">
+            <div class="feature">
+                <button><span class="material-symbols-outlined">arrow_right_alt</span></button>
+                <button><span class="material-symbols-outlined">monetization_on</span></button>
+                <button><span class="material-symbols-outlined">chat</span></button>
+                <button><span class="material-symbols-outlined">notifications_active</span></i></button>
+                <button><span class="material-symbols-outlined">add</span></button>
+                <button><span class="material-symbols-outlined">campaign</span></i></button>
+            </div>
+            <button class="list">
+                <span id="username"><img src="/image/reddit.png" alt="" class="user-icon"></span>
+                <i class="ri-arrow-down-s-fill"></i>
+            </button>
+            <div class="sitting">
+                <button><span><i style="font-size: 22px;" class="ri-moon-line"></i> Dark Mode</span>
+                    <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                </button>
+                <button id="myprofile">
+                    <i class="ri-shield-user-fill"></i> 
+                    Profile</button>
+                <button><span><i style="font-size: 22px;" class="ri-question-line"></i> Help Center</span></button>
+                <button><span><i style="font-size: 22px;" class="ri-error-warning-line"></i> More</span></button>
+                <button><span><i style="font-size: 22px;" class="ri-file-list-3-line"></i> Trems &
+                        Policies</span></button>
+                <button><span><i class="fa fa-gavel" aria-hidden="true"></i> Advertise pn Reddit</span></button>
+                <button id="logout" class="last"><span><i class="fa fa-sign-in" aria-hidden="true"></i> Log Out</span></button>
+            </div>
+        </div>
+    </header>
+    <section class="side-bar">
+        <div class="lists">
+            <div class="filter-side">
+                <input type="text" class="search-side" placeholder="Filter">
+            </div>
+            <div class="communities">
+                <p class="title">YOUR COMMUNITIES</p>
+                <a class="topics" href=""><span class="material-symbols-outlined">add</span> Create Community</a>
+            </div>
+            <div class="feeds">
+                <p class="title">FEEDS</p>
+                <a class="topics" href="/page/home"><span class="material-symbols-outlined">home</span> Home</a>
+                <a class="topics" href="#"><span class="material-symbols-outlined">arrow_right_alt</span> Populer</a>
+                <a class="topics" href="#"><span class="material-symbols-outlined">manage_search</span> All</a>
+            </div>
+            <p class="title">OTHER</p>
+            <div id="drop-list" class="OTHER">
+                <a class="topics" href="#"><span class="material-symbols-outlined">settings</span> User Settings</a>
+                <a class="topics" href="#"><span class="material-symbols-outlined">message</span> Message</a>
+                <a class="topics" href="#"><span class="material-symbols-outlined">add</span> Create post</a>
+                <a class="topics" href="#"><span class="material-symbols-outlined">notifications_active</span>
+                    Notification</a>
+                <a class="topics" href=""><span class="material-symbols-outlined">monetization_on</span> Coins</a>
+                <a class="topics" href=""><span class="material-symbols-outlined">admin_panel_settings</span>
+                    Premium</a>
+                <a class="topics" href=""><span class="material-symbols-outlined">laundry</span> Avatar</a>
+
+
+
+            </div>
+
+        </div>
+        <div class="join">
+            <p>Create an account to follow your favorite communities and start taking part in conversations.</p>
+            <button>Join Reddit</button>
+        </div>
+    </section>
+
+    <section class="right-list">
+        <div class="right-lists">
+            <button id="right-sid-bar-btn" class="POPULAR titles" href="#"><span><i class="ri-gamepad-fill"></i></i>
+                    POPULAR COMMUNITIES</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-POPULAR">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="Gaming titles" href="#"><span><i class="ri-gamepad-fill"></i></i>
+                    Gaming</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-Gaming">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="sports titles" href="#"><span><i class="ri-football-fill"></i>
+                    Sports</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-sports">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="business titles" href="#"><span><i class="ri-bar-chart-fill"></i>
+                    Business</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-business">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="crypto titles" href="#"><span><i class="ri-drag-move-line"></i>
+                    Crypto</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-crypto">
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+                <a href="#">*testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="television titles" href="#"><span><i class="ri-tv-line"></i>
+                    Television</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-television">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+            <button id="right-sid-bar-btn" class="celebrity titles" href="#"><span><i class="ri-star-smile-line"></i>
+                    Celebrity</span> <span><i class="ri-arrow-down-s-fill"></i></span></button>
+            <div id="right-drop-list" class="right-celebrity">
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+                <a href="#">testing</a>
+            </div>
+        </div>
+    </section>
+
+    <h3 class="create-title">Create a post</h3>
+    <section class="add-post">
+        <form id="postForm" class="post-form">
+            <input type="text" name="title" class="post-title" placeholder="Title">
+            <input type="text" name="imageUrl" class="post-img" placeholder="Image Link">
+            <textarea name="content" class="post-Area" cols="30" rows="10" placeholder="Text (Optional)"></textarea>
+            <button class="post">Post</button>
+            <button class="update" style="display: none;">Save</button>
+
+        </form type="submit">
+    </section>
+    <script src="/js/utils/helpers.js"></script>
+    <script src="/js/utils/userdata.js"></script>
+    <script src="/js/post/postValidation.js"></script>
+    <script src="/js/post/createpost.js"></script>
+</body>
+
+</html>
